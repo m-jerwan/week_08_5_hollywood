@@ -13,9 +13,9 @@ public class Bafta18Test {
 
     @Before
     public void before(){
-        actor_1 = new Actor("Bob", "Hoskins", "American");
-        actor_2 = new Actor("Leo", "DiCaprio", "American");
-        bafta18BestActor = new Bafta18("Best Actor", actor_1);
+        actor_1 = new Actor("Bob", "Hoskins", "American", true);
+        actor_2 = new Actor("Leo", "DiCaprio", "American", false);
+        bafta18BestActor = new Bafta18("Best Actor");
     }
 
     @Test
@@ -27,18 +27,6 @@ public class Bafta18Test {
     public void canSetCategory(){
         bafta18BestActor.setCategory("Best Actress");
         assertEquals("Best Actress", bafta18BestActor.getCategory());
-    }
-
-    @Test
-    public void hasWinner(){
-        assertEquals(actor_1.getClass(), bafta18BestActor.getWinner().getClass());
-    }
-
-    @Test
-    public void canSetWinner(){
-        bafta18BestActor.setWinner(actor_2);
-        Actor changedWinner = (Actor) bafta18BestActor.getWinner();
-        assertEquals("Leo", changedWinner.getFirstName());
     }
 
     @Test

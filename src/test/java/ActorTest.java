@@ -1,15 +1,19 @@
+import models.Award.Award;
+import models.Award.Oscar18;
 import models.Cast.Actor;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertTrue;
 
 public class ActorTest {
     Actor actor_1;
+    Award oscar;
 
     @Before
     public void before(){
-        actor_1 = new Actor("Bob", "Hoskins", "American");
+        actor_1 = new Actor("Bob", "Hoskings", "American", true);
     }
 
 
@@ -27,7 +31,7 @@ public class ActorTest {
 
     @Test
     public void hasSecondName(){
-        assertEquals("Hoskins", actor_1.getLastName());
+        assertEquals("Hoskings", actor_1.getLastName());
     }
 
     @Test
@@ -45,5 +49,22 @@ public class ActorTest {
     public void canSetNationality(){
         actor_1.setNationality("Russian");
         assertEquals("Russian", actor_1.getNationality());
+    }
+
+    @Test
+    public void isFrontCredits(){
+        assertTrue(actor_1.isFrontCredits());
+    }
+
+    @Test
+    public void hasCreditsName(){
+        assertEquals("Bob Hoskings", actor_1.nameForCredits());
+    }
+
+    @Test
+    public void canWinAward(){
+        oscar = new Oscar18("Best Supported Role");
+        Award.winningAward(oscar, actor_1);
+        assertEquals("Best Supported Role",actor_1.getAwards().get(0).getCategory() );
     }
 }

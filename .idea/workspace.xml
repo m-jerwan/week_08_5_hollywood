@@ -2,36 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5629022-1b1f-4ff9-9b1e-c416e0ef5bbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Award/Award.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Award/ICanWinAward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Crew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/DirectorOfPhotography.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Editing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/HairMua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Production.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/ProductionAssistant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/ProductionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/VisualEffects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Bafta18Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MusicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Oscar18Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductionAssTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductionManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Award/CategoriesType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/ICanWinAward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/ICredits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Studio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FilmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StudioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Award.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Award.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/ICanWinAward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/Crew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Crew/CrewMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/DirectorOfPhotography.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/Editing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/HairMua.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Production.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/VisualEffects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Crew/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Crew/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ActorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ActorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Bafta18Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Bafta18Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MusicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Oscar18Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Oscar18Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WriterTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +42,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/hollywood$All_in_week_08_5_hollywood.ic" NAME="All in week_08_5_hollywood Coverage Results" MODIFIED="1534608794077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hollywood$models_in_week_08_5_hollywood.ic" NAME="models in week_08_5_hollywood Coverage Results" MODIFIED="1534609636057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>models.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hollywood$All_in_week_08_5_hollywood.ic" NAME="All in week_08_5_hollywood Coverage Results" MODIFIED="1534612017338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/hollywood$OscarTest.ic" NAME="OscarTest Coverage Results" MODIFIED="1534605720725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
@@ -61,30 +64,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="48" />
+          <entry key="java" value="90" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="90" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="2" />
-          <entry key="java" value="3368" />
-          <entry key="txt" value="49" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="6555" />
+          <entry key="txt" value="90" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3368" />
-          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="JAVA" value="6555" />
+          <entry key="PLAIN_TEXT" value="98" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -93,30 +98,62 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Writer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/ICanWinAward.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="120">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Award.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WriterTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/CategoriesType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ActorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,100 +172,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Music.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/Actor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/CrewMember.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Director.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <caret line="24" selection-start-line="24" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/ProductionManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/ProductionAssistant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ProductionManagerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="495">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ProductionAssTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Oscar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/VisualEffects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -240,6 +248,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -253,30 +262,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Award.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Award/ICanWinAward.java" />
         <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" />
         <option value="$PROJECT_DIR$/src/main/java/ICanWinAward.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Award/Award.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" />
         <option value="$PROJECT_DIR$/src/test/java/OscarTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ActorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Oscar18Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Bafta18Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/Crew.java" />
         <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Crew/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/DirectorOfPhotography.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/Editing.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/HairMua.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/Musician.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/Production.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/VisualEffects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Crew/Writer.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/Music.java" />
         <option value="$PROJECT_DIR$/src/test/java/WriterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MusicTest.java" />
@@ -284,6 +280,27 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/ProductionAssistant.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductionAssTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductionManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Studio.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StudioTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Crew/CrewMember.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Film.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/ICredits.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FilmTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Bafta18Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Oscar18Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Crew/Director.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Crew/Writer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/ICanWinAward.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ActorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/ICanWinAward.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/CategoriesType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/Award.java" />
       </list>
     </option>
   </component>
@@ -390,7 +407,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534608805524" />
+    <property name="SearchEverywhereHistoryKey" value="winAwa&#9;PSI&#9;JAVA://models.ICanWinAward#winAward" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534618348577" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -424,54 +442,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week_08_5_hollywood" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="MAIN_CLASS_NAME" value="FilmTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week_08_5_hollywood" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MusicTest" />
+      <option name="MAIN_CLASS_NAME" value="StudioTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductionAssTest.canDoHisJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudioTest.hasFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week_08_5_hollywood" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductionAssTest" />
-      <option name="METHOD_NAME" value="canDoHisJob" />
+      <option name="MAIN_CLASS_NAME" value="StudioTest" />
+      <option name="METHOD_NAME" value="hasFilm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="models in week_08_5_hollywood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week_08_5_hollywood" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WriterTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.All in week_08_5_hollywood" />
-      <item itemvalue="JUnit.DirectorTest" />
-      <item itemvalue="JUnit.WriterTest" />
-      <item itemvalue="JUnit.MusicTest" />
-      <item itemvalue="JUnit.ProductionAssTest.canDoHisJob" />
+      <item itemvalue="JUnit.models in week_08_5_hollywood" />
+      <item itemvalue="JUnit.StudioTest.hasFilm" />
+      <item itemvalue="JUnit.StudioTest" />
+      <item itemvalue="JUnit.FilmTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in week_08_5_hollywood" />
-        <item itemvalue="JUnit.ProductionAssTest.canDoHisJob" />
-        <item itemvalue="JUnit.MusicTest" />
-        <item itemvalue="JUnit.WriterTest" />
-        <item itemvalue="JUnit.DirectorTest" />
+        <item itemvalue="JUnit.FilmTest" />
+        <item itemvalue="JUnit.StudioTest" />
+        <item itemvalue="JUnit.StudioTest.hasFilm" />
+        <item itemvalue="JUnit.models in week_08_5_hollywood" />
       </list>
     </recent_temporary>
   </component>
@@ -493,39 +517,46 @@
       <option name="project" value="LOCAL" />
       <updated>1534602230618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="crew, cast and awards DONE, tested">
+      <created>1534608831919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534608831919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Bafta18Test - 2018.08.18 at 16h 38m 09s.xml">
-      <configuration name="Bafta18Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Bafta18Test - 2018.08.18 at 16h 38m 20s.xml">
-      <configuration name="Bafta18Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 16h 38m 27s.xml">
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 18h 59m 32s.xml">
       <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest - 2018.08.18 at 16h 50m 31s.xml">
-      <configuration name="DirectorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 16h 50m 37s.xml">
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 01m 21s.xml">
       <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriterTest - 2018.08.18 at 17h 00m 01s.xml">
-      <configuration name="WriterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MusicTest - 2018.08.18 at 17h 02m 11s.xml">
-      <configuration name="MusicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 17h 02m 40s.xml">
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 01m 40s.xml">
       <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 17h 05m 22s.xml">
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 02m 02s.xml">
       <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductionAssTest_canDoHisJob - 2018.08.18 at 17h 11m 02s.xml">
-      <configuration name="ProductionAssTest.canDoHisJob" configurationId="JUnit" />
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 05m 12s.xml">
+      <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 05m 24s.xml">
+      <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 05m 33s.xml">
+      <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 26m 52s.xml">
+      <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 30m 22s.xml">
+      <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_week_08_5_hollywood - 2018.08.18 at 19h 38m 30s.xml">
+      <configuration name="All in week_08_5_hollywood" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -537,14 +568,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28055555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.3293124" />
+      <window_info anchor="bottom" id="Analyze Dataflow from" weight="0.32902467" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32902467" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2279671" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -566,7 +598,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22222222" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3293124" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32902467" />
@@ -574,7 +606,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2279671" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.2279671" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39952996" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -583,7 +615,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3298611" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3298611" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -605,7 +637,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom, cfg.xml and empty runnner - all OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom, cfg.xml and empty runnner - all OK" />
+    <MESSAGE value="crew, cast and awards DONE, tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="crew, cast and awards DONE, tested" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/week_08_5_hollywood.iml">
@@ -632,185 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/ICanWinAward.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Oscar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ActorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Award.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Bafta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Oscar18Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Bafta18Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="58" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Crew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,42 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/ProductionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -912,6 +746,41 @@
             <element signature="e#397#398#0" expanded="true" />
             <element signature="e#457#458#0" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductionManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -930,7 +799,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/WriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
@@ -944,7 +813,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ProductionAssTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
@@ -955,16 +824,246 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductionManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StudioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="435">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Studio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ICredits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FilmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Bafta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Bafta18Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Oscar18Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Oscar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/CrewMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ActorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/ICanWinAward.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/CategoriesType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Award.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>

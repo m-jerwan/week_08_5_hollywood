@@ -1,11 +1,11 @@
 package models.Crew;
 
-public abstract class Crew {
+public abstract class CrewMember {
     private String firstName;
     private String lastName;
     private String nationality;
 
-    public Crew(String firstName, String lastName, String nationality) {
+    public CrewMember(String firstName, String lastName, String nationality) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.nationality = nationality;

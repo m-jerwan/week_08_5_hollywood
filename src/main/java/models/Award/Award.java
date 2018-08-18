@@ -1,14 +1,15 @@
 package models.Award;
 
+import models.ICanWinAward;
+
 public abstract class Award {
     private String category;
     private String country;
     private ICanWinAward winner;
 
-    public Award(String category, String country, ICanWinAward winner) {
+    public Award(, String country) {
         this.category = category;
         this.country = country;
-        this.winner = winner;
     }
 
     public String getCategory(){
@@ -28,12 +29,15 @@ public abstract class Award {
         this.country = country;
     }
 
-
-    public ICanWinAward getWinner() {
-        return winner;
-    }
-
-    public void setWinner(ICanWinAward winner) {
+    public void ingraveWinner(ICanWinAward winner){
         this.winner = winner;
     }
+
+    public static void winningAward(Award award, ICanWinAward winner){
+        winner.winAward(award);
+        award.ingraveWinner(winner);
+    }
+
+
+
 }
