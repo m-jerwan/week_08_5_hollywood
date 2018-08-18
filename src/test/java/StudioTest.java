@@ -13,7 +13,7 @@ public class StudioTest {
 
     @Before
     public void before(){
-        universal = new Studio(200000);
+        universal = new Studio("Universal",200000);
         film_01 = new Film("Snatch", "Movie X", 2000);
     }
 
@@ -28,19 +28,19 @@ public class StudioTest {
         assertEquals(200, universal.getBudget());
     }
 
-    @Test
-    public void startsNoFilms(){
-        assertTrue(  universal.getFilms().isEmpty());
-    }
+//    @Test
+//    public void startsNoFilms(){
+//        assertTrue(  universal.getFilms().isEmpty());
+//    }
 
 
 
-    @Test
-    public void canGetFilms(){
-        universal.addFilm(film_01);
-        assertEquals(0,0);
+//    @Test
+//    public void canGetFilms(){
+//        universal.addFilm(film_01);
+//        assertEquals(0,0);
 //        assertEquals("Snatch", universal.getFilms().get(0).getTitle());
-    }
+//    }
 
 }
 

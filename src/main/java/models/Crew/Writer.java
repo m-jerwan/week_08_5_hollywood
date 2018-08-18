@@ -25,9 +25,9 @@ public class Writer extends CrewMember implements ICanWinAward {
         this.script = script;
     }
 
-    public ArrayList<Award> getAwards() {
-        return awards;
-    }
+//    public ArrayList<Award> getAwards() {
+//        return awards;
+//    }
 
     public void setAwards(ArrayList<Award> awards) {
         this.awards = awards;

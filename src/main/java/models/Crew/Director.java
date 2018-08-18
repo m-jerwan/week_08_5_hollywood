@@ -13,9 +13,9 @@ public class Director extends CrewMember implements ICanWinAward {
         this.awards = new ArrayList<Award>();
     }
 
-    public ArrayList<Award> getAwards() {
-        return awards;
-    }
+//    public ArrayList<Award> getAwards() {
+//        return awards;
+//    }
 
     public void setAwards(ArrayList<Award> awards) {
         this.awards = awards;

@@ -20,7 +20,6 @@ public abstract class Award {
         this.category = category;
     }
 
-
     public String getCountry() {
         return country;
     }
@@ -29,14 +28,14 @@ public abstract class Award {
         this.country = country;
     }
 
-    public void ingraveWinner(ICanWinAward winner){
+    public void engraveWinner(ICanWinAward winner){
         this.winner = winner;
     }
 
-    public static void winningAward(Award award, ICanWinAward winner){
-        winner.winAward(award);
-        award.ingraveWinner(winner);
-    }
+//    public static void winningAward(Award award, ICanWinAward winner){
+//        winner.winAward(award);
+//        award.engraveWinner(winner);
+//    }
 
 
 

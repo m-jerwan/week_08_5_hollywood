@@ -3,9 +3,13 @@ package models;
 import models.Cast.CastMember;
 import models.Crew.CrewMember;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 
+@Entity
+@Table(name = "films")
 public class Film {
+    private int id;
     private String title;
     private String script;
     private int budget;
@@ -20,6 +24,17 @@ public class Film {
         this.crew = new ArrayList<CrewMember>();
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    @Column(name = "title")
     public String getTitle() {
         return title;
     }
@@ -28,6 +43,7 @@ public class Film {
         this.title = title;
     }
 
+    @Column(name = "script")
     public String getScript() {
         return script;
     }
@@ -36,6 +52,7 @@ public class Film {
         this.script = script;
     }
 
+    @Column(name = "budget")
     public int getBudget() {
         return budget;
     }
@@ -44,23 +61,23 @@ public class Film {
         this.budget = budget;
     }
 
-    public ArrayList<CastMember> getCast() {
-        return cast;
-    }
+//    @Column(name = "cast")
+//    public ArrayList<CastMember> getCast() {
+//        return cast;
+//    }
 
     public void setCast(ArrayList<CastMember> cast) {
         this.cast = cast;
     }
 
-    public ArrayList<CrewMember> getCrew() {
-        return crew;
-    }
+//    @Column(name = "crew")
+//    public ArrayList<CrewMember> getCrew() {
+//        return crew;
+//    }
 
     public void setCrew(ArrayList<CrewMember> crew) {
         this.crew = crew;
     }
-
-
 
     public void addPersonToFilm(CastMember person){ //if adding cast member
         this.cast.add(person);
