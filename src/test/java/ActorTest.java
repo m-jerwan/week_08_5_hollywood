@@ -1,4 +1,5 @@
 import models.Award.Award;
+import models.Award.CategoriesType;
 import models.Award.Oscar18;
 import models.Cast.Actor;
 import org.junit.Before;
@@ -63,8 +64,9 @@ public class ActorTest {
 
     @Test
     public void canWinAward(){
-        oscar = new Oscar18("Best Supported Role");
+        oscar = new Oscar18(CategoriesType.SUPORTIVEACTOR);
         Award.winningAward(oscar, actor_1);
-        assertEquals("Best Supported Role",actor_1.getAwards().get(0).getCategory() );
+        String descriptiopn = oscar.getCategory().getDescription();
+        assertEquals("Best support actor",actor_1.getAwards().get(0).getCategory().getDescription());
     }
 }

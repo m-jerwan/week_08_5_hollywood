@@ -4,8 +4,8 @@ public enum CategoriesType {
     DIRECTOR("Best Director"),
     MOVIE("Best Movie"),
     ACTOR("Best leading actor"),
-    SUPORTIVEACTOR("Best suportive actor"),
-    SCRIPT("Best orignial script");
+    SUPORTIVEACTOR("Best support actor"),
+    SCRIPT("Best original script");
 
     private String description;
 

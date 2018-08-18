@@ -1,4 +1,5 @@
 import models.Award.Bafta18;
+import models.Award.CategoriesType;
 import models.Award.Oscar18;
 import models.Cast.Actor;
 import org.junit.Before;
@@ -15,18 +16,18 @@ public class Bafta18Test {
     public void before(){
         actor_1 = new Actor("Bob", "Hoskins", "American", true);
         actor_2 = new Actor("Leo", "DiCaprio", "American", false);
-        bafta18BestActor = new Bafta18("Best Actor");
+        bafta18BestActor = new Bafta18(CategoriesType.ACTOR);
     }
 
     @Test
     public void hasCategory(){
-        assertEquals("Best Actor", bafta18BestActor.getCategory());
+        assertEquals("Best leading actor", bafta18BestActor.getCategory().getDescription());
     }
 
     @Test
     public void canSetCategory(){
-        bafta18BestActor.setCategory("Best Actress");
-        assertEquals("Best Actress", bafta18BestActor.getCategory());
+        bafta18BestActor.setCategory(CategoriesType.ACTOR);
+        assertEquals("Best leading actor", bafta18BestActor.getCategory().getDescription());
     }
 
     @Test

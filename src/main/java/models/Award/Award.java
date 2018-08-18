@@ -3,20 +3,20 @@ package models.Award;
 import models.ICanWinAward;
 
 public abstract class Award {
-    private String category;
+    private CategoriesType category;
     private String country;
     private ICanWinAward winner;
 
-    public Award(, String country) {
+    public Award(CategoriesType category, String country) {
         this.category = category;
         this.country = country;
     }
 
-    public String getCategory(){
+    public CategoriesType getCategory(){
         return this.category;
     }
 
-    public void setCategory(String category) {
+    public void setCategory(CategoriesType category) {
         this.category = category;
     }
 

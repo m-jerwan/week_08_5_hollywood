@@ -2,7 +2,7 @@ package models.Award;
 
 public abstract class Bafta extends Award{
 
-    public Bafta(String category) {
+    public Bafta(CategoriesType category) {
         super(category, "UK" );
     }
 }

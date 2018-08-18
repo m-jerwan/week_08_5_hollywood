@@ -2,7 +2,7 @@ package models.Award;
 
 public abstract class Oscar extends Award {
 
-    public Oscar(String category) {
+    public Oscar(CategoriesType category) {
         super(category,"US");
     }
 }

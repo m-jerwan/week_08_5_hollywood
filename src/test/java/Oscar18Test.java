@@ -1,4 +1,5 @@
 import javassist.expr.Cast;
+import models.Award.CategoriesType;
 import models.Award.Oscar;
 import models.Award.Oscar18;
 import models.Cast.Actor;
@@ -16,18 +17,18 @@ public class Oscar18Test {
     public void before(){
         actor_1 = new Actor("Bob", "Hoskins", "American", true);
         actor_2 = new Actor("Leo", "DiCaprio", "American", false);
-        oscar18BestActor = new Oscar18("Best Actor");
+        oscar18BestActor = new Oscar18(CategoriesType.ACTOR);
     }
 
     @Test
     public void hasCategory(){
-        assertEquals("Best Actor", oscar18BestActor.getCategory());
+        assertEquals("Best leading actor", oscar18BestActor.getCategory().getDescription());
     }
 
     @Test
     public void canSetCategory(){
-        oscar18BestActor.setCategory("Best Actress");
-            assertEquals("Best Actress", oscar18BestActor.getCategory());
+        oscar18BestActor.setCategory(CategoriesType.ACTOR);
+            assertEquals("Best leading actor", oscar18BestActor.getCategory().getDescription());
     }
 
     @Test
