@@ -32,8 +32,10 @@ public class Runner {
         ProductionAssistant assistant_1 = new ProductionAssistant("Stuart", "Black", "Scottish");
 //        DBHelper.save(assistant_1);
 
-        Oscar18 oscar_1 = new Oscar18(CategoriesType.DIRECTOR);
-        Bafta18 bafta_1 = new Bafta18(CategoriesType.ACTOR);
+        Oscar oscar_1 = new Oscar(CategoriesType.DIRECTOR);
+//        DBHelper.save(oscar_1);
+        Bafta bafta_1 = new Bafta(CategoriesType.ACTOR);
+//        DBHelper.save(bafta_1);
 
 //        Award.winningAward(oscar_1, director_1);
 //        Award.winningAward(bafta_1, actor_1);

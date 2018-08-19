@@ -20,6 +20,9 @@
         <mapping class = "models.Crew.Writer"/>
         <mapping class = "models.Crew.ProductionMember"/>
         <!--<mapping class = "models.Crew.ProductionAssistant"/>-->
-        <mapping class = "models.Crew.ProductionManager"/>
+        <!--<mapping class = "models.Crew.ProductionManager"/>-->
+        <mapping class = "models.Award.Award"/>
+
+
     </session-factory>
 </hibernate-configuration>
