@@ -4,6 +4,8 @@ import com.sun.xml.internal.bind.v2.model.core.ID;
 
 import javax.persistence.*;
 
+//PRODUCTION MEMBERS ARE NOT YET IN
+
 @Entity
 @Table(name = "production members")
 @Inheritance(strategy = InheritanceType.JOINED)

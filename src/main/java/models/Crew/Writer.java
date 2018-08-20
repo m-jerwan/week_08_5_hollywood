@@ -1,7 +1,6 @@
 package models.Crew;
 
 import models.Award.Award;
-import models.ICanWinAward;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,7 +8,7 @@ import javax.persistence.Table;
 import java.util.ArrayList;
 @Entity
 @Table(name = "writers")
-public class Writer extends CrewMember implements ICanWinAward {
+public class Writer extends CrewMember  {
     private ArrayList<Award> awards;
     private  String script;
 

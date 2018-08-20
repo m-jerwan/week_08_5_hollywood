@@ -1,11 +1,13 @@
 package models.Crew;
 
+import models.Person;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "crew_members")
 @Inheritance(strategy = InheritanceType.JOINED)
-public abstract class CrewMember {
+public abstract class CrewMember extends Person {
     private int id;
     private String firstName;
     private String lastName;
@@ -57,4 +59,8 @@ public abstract class CrewMember {
     public void setNationality(String nationality) {
         this.nationality = nationality;
     }
+
+    //    void winAward(Award award);
+//
+//    ArrayList<Award> getAwards();
 }

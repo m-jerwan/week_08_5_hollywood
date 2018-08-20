@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "awards")
+@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Award {
     private int id;
     private CategoriesType category;
@@ -57,7 +58,7 @@ public abstract class Award {
 //        this.winner = winner;
 //    }
 
-//    public static void winningAward(Award award, ICanWinAward winner){
+//    public static void winningAward(Award award, Person person){
 //        winner.winAward(award);
 //        award.engraveWinner(winner);
 //    }

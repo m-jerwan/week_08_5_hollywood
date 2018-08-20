@@ -1,14 +1,14 @@
 package models.Cast;
 
 import models.Award.Award;
-import models.ICanWinAward;
+import models.Person;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 
 @Entity
 @Table(name = "actors")
-public class Actor implements ICanWinAward {
+public class Actor extends Person {
     private int id;
     private String firstName;
     private String lastName;
@@ -89,4 +89,7 @@ public class Actor implements ICanWinAward {
 //    public void winAward(Award award) {
 //        this.awards.add(award);
 //    }
+
+
+
 }

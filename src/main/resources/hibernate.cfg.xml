@@ -21,6 +21,8 @@
         <!--<mapping class = "models.Crew.ProductionAssistant"/>-->
         <!--<mapping class = "models.Crew.ProductionManager"/>-->
         <mapping class = "models.Award.Award"/>
+        <mapping class = "models.Award.Bafta"/>
+        <mapping class = "models.Award.Oscar"/>
 
 
     </session-factory>

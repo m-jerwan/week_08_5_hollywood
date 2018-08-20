@@ -14,7 +14,7 @@ public class Runner {
         Studio studio_1 = new Studio("Universal", 10000);
         DBHelper.save(studio_1);
 
-        Writer writer_1 = new Writer("Bob", "Hoskins", "American","Karaoke movie" );
+        Writer writer_1 = new Writer("Mike", "McMike", "British","Karaoke movie" );
         DBHelper.save(writer_1);
 
         Film film_1 = new Film("Lost in translation", writer_1.getScript(), 2000);
@@ -33,9 +33,9 @@ public class Runner {
 //        DBHelper.save(assistant_1);
 
         Oscar oscar_1 = new Oscar(CategoriesType.DIRECTOR);
-//        DBHelper.save(oscar_1);
+        DBHelper.save(oscar_1);
         Bafta bafta_1 = new Bafta(CategoriesType.ACTOR);
-//        DBHelper.save(bafta_1);
+        DBHelper.save(bafta_1);
 
 //        Award.winningAward(oscar_1, director_1);
 //        Award.winningAward(bafta_1, actor_1);
