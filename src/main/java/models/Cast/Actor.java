@@ -1,6 +1,7 @@
 package models.Cast;
 
 import models.Award.Award;
+import models.Film;
 import models.Person;
 
 import javax.persistence.*;
@@ -9,12 +10,11 @@ import java.util.ArrayList;
 @Entity
 @Table(name = "actors")
 public class Actor extends Person {
-    private int id;
     private String firstName;
     private String lastName;
     private String nationality;
     private boolean isFrontCredits;
-//    private ArrayList<Award> awards;
+    private Film film;
 
     public Actor() {
     }
@@ -24,19 +24,9 @@ public class Actor extends Person {
         this.lastName = lastName;
         this.nationality = nationality;
         this.isFrontCredits = isFrontCredits;
-//        this.awards = new ArrayList<Award>();
     }
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     @Column(name = "first_name")
     public String getFirstName() {
@@ -74,22 +64,17 @@ public class Actor extends Person {
         isFrontCredits = frontCredits;
     }
 
-//    public ArrayList<Award> getAwards() {
-//        return awards;
-//    }
-//
-//    public void setAwards(ArrayList<Award> awards) {
-//        this.awards = awards;
-//    }
-
     public String nameForCredits(){
         return this.firstName+" "+this.lastName;
     }
 
-//    public void winAward(Award award) {
-//        this.awards.add(award);
-//    }
+    @ManyToOne
+    @JoinColumn(name = "film_id", nullable = false)
+    public Film getFilm() {
+        return film;
+    }
 
-
-
+    public void setFilm(Film film) {
+        this.film = film;
+    }
 }

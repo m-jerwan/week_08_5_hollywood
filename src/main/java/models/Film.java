@@ -5,6 +5,7 @@ import models.Crew.CrewMember;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "films")
@@ -13,8 +14,8 @@ public class Film {
     private String title;
     private String script;
     private int budget;
-    private ArrayList<Actor> cast;
-    private ArrayList<CrewMember> crew;
+    private List<Actor> cast;
+    private List<CrewMember> crew;
 
     public Film(String title, String script, int budget) {
         this.title = title;
@@ -61,21 +62,21 @@ public class Film {
         this.budget = budget;
     }
 
-//    @Column(name = "cast")
-//    public ArrayList<CastMember> getCast() {
-//        return cast;
-//    }
+    @OneToMany(mappedBy = "film", fetch = FetchType.LAZY)
+    public List<Actor> getCast() {
+        return cast;
+    }
 
-    public void setCast(ArrayList<Actor> cast) {
+    public void setCast(List<Actor> cast) {
         this.cast = cast;
     }
 
-//    @Column(name = "crew")
-//    public ArrayList<CrewMember> getCrew() {
-//        return crew;
-//    }
+    @OneToMany(mappedBy = "film", fetch = FetchType.LAZY)
+    public List<CrewMember> getCrew() {
+        return crew;
+    }
 
-    public void setCrew(ArrayList<CrewMember> crew) {
+    public void setCrew(List<CrewMember> crew) {
         this.crew = crew;
     }
 
@@ -83,12 +84,12 @@ public class Film {
         this.cast.add(person);
     }
 
-    public void removePersonFromFilm(Actor person){
-        this.cast.remove(person);
-    }
-
     public void addPersonToFilm(CrewMember person){ // if adding crew
         this.crew.add(person);
+    }
+
+    public void removePersonFromFilm(Actor person){
+        this.cast.remove(person);
     }
 
     public void removePersonFromFilm(CrewMember person){

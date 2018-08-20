@@ -1,5 +1,6 @@
 package models.Crew;
 
+import models.Film;
 import models.Person;
 
 import javax.persistence.*;
@@ -8,10 +9,10 @@ import javax.persistence.*;
 @Table(name = "crew_members")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class CrewMember extends Person {
-    private int id;
     private String firstName;
     private String lastName;
     private String nationality;
+    private Film film;
 
     public CrewMember() {
     }
@@ -20,17 +21,6 @@ public abstract class CrewMember extends Person {
         this.firstName = firstName;
         this.lastName = lastName;
         this.nationality = nationality;
-    }
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     @Column(name = "first_name")
@@ -60,7 +50,14 @@ public abstract class CrewMember extends Person {
         this.nationality = nationality;
     }
 
-    //    void winAward(Award award);
-//
-//    ArrayList<Award> getAwards();
+    @ManyToOne
+    @JoinColumn(name = "film_id", nullable = false)
+    public Film getFilm() {
+        return film;
+    }
+
+    public void setFilm(Film film) {
+        this.film = film;
+    }
+
 }

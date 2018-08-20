@@ -1,5 +1,8 @@
 package models.Award;
 
+import models.Cast.Actor;
+import models.Person;
+
 import javax.persistence.*;
 
 @Entity
@@ -9,7 +12,7 @@ public abstract class Award {
     private int id;
     private CategoriesType category;
     private String country;
-//    private CastMember winner;
+    private Person winner;
 
     public Award(CategoriesType category, String country) {
         this.category = category;
@@ -32,14 +35,15 @@ public abstract class Award {
         return this.category;
     }
 
-//    @Column(name = "winner")
-//    public CastMember getWinner() {
-//        return winner;
-//    }
-//
-//    public void setWinner(CastMember winner) {
-//        this.winner = winner;
-//    }
+    @ManyToOne
+    @JoinColumn(name = "award_id", nullable = false)
+    public Person getWinner() {
+        return winner;
+    }
+
+    public void setWinner(Person winner) {
+        this.winner = winner;
+    }
 
     public void setCategory(CategoriesType category) {
         this.category = category;
@@ -54,14 +58,14 @@ public abstract class Award {
         this.country = country;
     }
 
-//    public void engraveWinner(CastMember winner){
-//        this.winner = winner;
-//    }
+    public void engraveWinner(Person winner){
+        this.winner = winner;
+    }
 
-//    public static void winningAward(Award award, Person person){
-//        winner.winAward(award);
-//        award.engraveWinner(winner);
-//    }
+    public static void winningAward(Award award, Person winner){
+        winner.winAward(award);
+        award.engraveWinner(winner);
+    }
 
 
 
