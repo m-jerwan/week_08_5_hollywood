@@ -25,7 +25,7 @@ public class Runner {
         director_1.setFilm(film_1);
         DBHelper.save(director_1);
 
-        Actor actor_1 = new Actor("Scarlett", "Johannson", "American", true);
+        Actor actor_1 = new Actor("Scarlett", "Johansonn", "American", true);
         Actor actor_2 = new Actor("Bob", "Hoskings", "American", true);
         Actor actor_3 = new Actor("Han", "Huango", "Japanese", false);
         actor_1.setFilm(film_1);

@@ -17,7 +17,8 @@ public abstract class CrewMember extends Person {
     public CrewMember() {
     }
 
-    public CrewMember(String firstName, String lastName, String nationality) {
+    public CrewMember( String firstName, String lastName, String nationality) {
+        super(true);
         this.firstName = firstName;
         this.lastName = lastName;
         this.nationality = nationality;

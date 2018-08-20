@@ -62,9 +62,9 @@ public abstract class Award {
         this.winner = winner;
     }
 
-    public static void winningAward(Award award, Person winner){
-        winner.winAward(award);
-        award.engraveWinner(winner);
+    public static void winningAward(Award award, Person person){
+        person.winAward(award);
+        award.engraveWinner(person);
     }
 
 

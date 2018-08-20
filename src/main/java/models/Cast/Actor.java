@@ -13,20 +13,16 @@ public class Actor extends Person {
     private String firstName;
     private String lastName;
     private String nationality;
-    private boolean isFrontCredits;
     private Film film;
 
     public Actor() {
     }
-
-    public Actor(String firstName, String lastName, String nationality, boolean isFrontCredits) {
+    public Actor(String firstName, String lastName, String nationality, boolean isFrontCredits ) {
+        super(isFrontCredits);
         this.firstName = firstName;
         this.lastName = lastName;
         this.nationality = nationality;
-        this.isFrontCredits = isFrontCredits;
     }
-
-
 
     @Column(name = "first_name")
     public String getFirstName() {
@@ -53,15 +49,6 @@ public class Actor extends Person {
 
     public void setNationality(String nationality) {
         this.nationality = nationality;
-    }
-
-    @Column(name = "front_credits")
-    public boolean getFrontCredits(){
-        return this.isFrontCredits;
-    }
-
-    public void setFrontCredits(boolean frontCredits) {
-        isFrontCredits = frontCredits;
     }
 
     public String nameForCredits(){

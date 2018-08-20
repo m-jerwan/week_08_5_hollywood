@@ -4,6 +4,7 @@ import models.Award.Award;
 
 import javax.persistence.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 //TODO move all common to actor and crew member constructor and methods HERE
@@ -13,6 +14,16 @@ import java.util.List;
 public class Person {
     private int id;
     private List<Award> awards;
+    private boolean isFrontCredits;
+
+
+    public Person() {
+    }
+
+    public Person(boolean isFrontCredits) {
+        this.isFrontCredits = isFrontCredits;
+        this.awards = new ArrayList<Award>();
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,5 +47,14 @@ public class Person {
 
     public void winAward(Award award){
         this.awards.add(award);
+    }
+
+    @Column(name = "front_credits")
+    public boolean getFrontCredits(){
+        return this.isFrontCredits;
+    }
+
+    public void setFrontCredits(boolean frontCredits) {
+        isFrontCredits = frontCredits;
     }
 }
