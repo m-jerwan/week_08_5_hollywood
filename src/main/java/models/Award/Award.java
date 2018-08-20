@@ -1,8 +1,5 @@
 package models.Award;
 
-import models.Cast.CastMember;
-import models.ICanWinAward;
-
 import javax.persistence.*;
 
 @Entity
@@ -11,7 +8,7 @@ public abstract class Award {
     private int id;
     private CategoriesType category;
     private String country;
-    private CastMember winner;
+//    private CastMember winner;
 
     public Award(CategoriesType category, String country) {
         this.category = category;
@@ -34,14 +31,14 @@ public abstract class Award {
         return this.category;
     }
 
-    @Column(name = "winner")
-    public CastMember getWinner() {
-        return winner;
-    }
-
-    public void setWinner(CastMember winner) {
-        this.winner = winner;
-    }
+//    @Column(name = "winner")
+//    public CastMember getWinner() {
+//        return winner;
+//    }
+//
+//    public void setWinner(CastMember winner) {
+//        this.winner = winner;
+//    }
 
     public void setCategory(CategoriesType category) {
         this.category = category;
@@ -56,9 +53,9 @@ public abstract class Award {
         this.country = country;
     }
 
-    public void engraveWinner(CastMember winner){
-        this.winner = winner;
-    }
+//    public void engraveWinner(CastMember winner){
+//        this.winner = winner;
+//    }
 
 //    public static void winningAward(Award award, ICanWinAward winner){
 //        winner.winAward(award);

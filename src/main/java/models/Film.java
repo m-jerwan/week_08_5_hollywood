@@ -1,6 +1,6 @@
 package models;
 
-import models.Cast.CastMember;
+import models.Cast.Actor;
 import models.Crew.CrewMember;
 
 import javax.persistence.*;
@@ -13,14 +13,14 @@ public class Film {
     private String title;
     private String script;
     private int budget;
-    private ArrayList<CastMember> cast;
+    private ArrayList<Actor> cast;
     private ArrayList<CrewMember> crew;
 
     public Film(String title, String script, int budget) {
         this.title = title;
         this.script = script;
         this.budget = budget;
-        this.cast = new ArrayList<CastMember>();
+        this.cast = new ArrayList<Actor>();
         this.crew = new ArrayList<CrewMember>();
     }
 
@@ -66,7 +66,7 @@ public class Film {
 //        return cast;
 //    }
 
-    public void setCast(ArrayList<CastMember> cast) {
+    public void setCast(ArrayList<Actor> cast) {
         this.cast = cast;
     }
 
@@ -79,11 +79,11 @@ public class Film {
         this.crew = crew;
     }
 
-    public void addPersonToFilm(CastMember person){ //if adding cast member
+    public void addPersonToFilm(Actor person){ //if adding cast member
         this.cast.add(person);
     }
 
-    public void removePersonFromFilm(CastMember person){
+    public void removePersonFromFilm(Actor person){
         this.cast.remove(person);
     }
 

@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c5629022-1b1f-4ff9-9b1e-c416e0ef5bbc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Award.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Award.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Oscar18Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Oscar18Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +42,7 @@
         <counts>
           <entry key="class" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="165" />
+          <entry key="java" value="169" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
@@ -53,23 +50,23 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="165" />
+          <entry key="JAVA" value="169" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="8310" />
-          <entry key="txt" value="382" />
-          <entry key="xml" value="71" />
+          <entry key="java" value="8488" />
+          <entry key="txt" value="494" />
+          <entry key="xml" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8310" />
-          <entry key="PLAIN_TEXT" value="396" />
-          <entry key="XML" value="71" />
+          <entry key="JAVA" value="8488" />
+          <entry key="PLAIN_TEXT" value="508" />
+          <entry key="XML" value="72" />
         </counts>
       </usages-collector>
     </session>
@@ -85,10 +82,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/Actor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="90" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Actor#0;class#Actor#0" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1462#1463#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Oscar18Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="690">
               <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#1329#0" expanded="true" />
@@ -109,52 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/ProductionMember.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Crew/ProductionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#ProductionManager#0;class#ProductionManager#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Studio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-              </folding>
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -162,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Award.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="57" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
@@ -172,18 +168,12 @@
                 <element signature="e#619#620#0" expanded="true" />
                 <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
                 <element signature="e#829#830#0" expanded="true" />
                 <element signature="e#869#870#0" expanded="true" />
                 <element signature="e#903#904#0" expanded="true" />
                 <element signature="e#933#934#0" expanded="true" />
                 <element signature="e#979#980#0" expanded="true" />
                 <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,6 +212,7 @@
     <findStrings>
       <find>cast</find>
       <find>mem</find>
+      <find>awa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -249,7 +240,6 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Award/Oscar18.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Award/CategoriesType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Film.java" />
         <option value="$PROJECT_DIR$/src/test/java/FilmTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Studio.java" />
         <option value="$PROJECT_DIR$/src/test/java/StudioTest.java" />
@@ -259,8 +249,6 @@
         <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductionAssTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductionManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/Writer.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/CrewMember.java" />
@@ -268,12 +256,15 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/ProductionAssistant.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/ProductionMember.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Crew/ProductionManager.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Award/Award.java" />
         <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Award/Oscar.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Award/Bafta.java" />
         <option value="$PROJECT_DIR$/src/test/java/Oscar18Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Cast/Actor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Award/Award.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Film.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
       </list>
     </option>
   </component>
@@ -396,7 +387,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="(Actor)&#9;null&#9;null&#10;winAwa&#9;PSI&#9;JAVA://models.ICanWinAward#winAward" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534682005441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534741711380" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -536,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534624727679</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete oscar 18 and bafta18. makes Oscar and Bafta not abstract/Hibernate errors/ all testing suspended">
+      <created>1534682056719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534682056719</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -589,8 +587,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32902467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3278496" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39952996" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3278496" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31139836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -656,19 +654,8 @@
     <MESSAGE value="building db. films, studios, actors ready" />
     <MESSAGE value="building db. films, studios, actors ready/ all testing suspended" />
     <MESSAGE value="crew in db(errors on production personel)/ all testing suspended" />
-    <option name="LAST_COMMIT_MESSAGE" value="crew in db(errors on production personel)/ all testing suspended" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Runner.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="delete oscar 18 and bafta18. makes Oscar and Bafta not abstract/Hibernate errors/ all testing suspended" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete oscar 18 and bafta18. makes Oscar and Bafta not abstract/Hibernate errors/ all testing suspended" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/week_08_5_hollywood.iml">
@@ -820,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-start-column="2" selection-end-line="75" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FilmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -871,45 +851,6 @@
           <caret line="20" lean-forward="true" selection-end-line="20" />
           <folding>
             <element signature="e#0#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1015,41 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Award.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Bafta18.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1082,6 +988,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Oscar18Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#1329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="90" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Actor#0;class#Actor#0" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Award/Award.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="55" selection-start-line="55" selection-start-column="2" selection-end-line="57" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1089,13 +1056,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Oscar18Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Cast/CastMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#1329#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
